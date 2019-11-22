@@ -12,6 +12,6 @@ if choice== "1" :
 elif choice=="2":
     n = sorted(s.split())
     print(n)
-  
+ 
 else:
     print("Wrong choice")

@@ -20,3 +20,4 @@ elif choice == "2":
     for word in no_s:
         print(word)
 else:
+    print("Wrong choice")

@@ -18,6 +18,7 @@ elif choice == "2":
     no_s.sort()
     print("Sorted:")
     for word in no_s:
-        print(word)
+        if len(word) > 3:
+            print(word)
 else:
     print("Wrong choice")
